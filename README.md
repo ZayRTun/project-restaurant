@@ -11,7 +11,8 @@ $ composer install
 ```console
 $ php artisan key:generate
 $ php artisan migrate --seed
-$ npm run dev || npm run build
+$ npm install && npm run build
+$ php artisan serve
 ```
 
 ## PDF
